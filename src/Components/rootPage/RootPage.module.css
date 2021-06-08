@@ -1,0 +1,47 @@
+.headWrapper {
+  position: relative;
+  overflow: hidden;
+}
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.contentWrapper h2 {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.contentWrapper h4 {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.contentWrapper p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: top;
+}
+.anchor {
+  width: 100px;
+  background-color: rgba(87, 117, 117, 0.108);
+  text-decoration: none;
+  color: red;
+}
+.anchor:hover {
+  color: red;
+  text-decoration: none;
+}
+.anchor:active {
+  color: red;
+  text-decoration: none;
+}
